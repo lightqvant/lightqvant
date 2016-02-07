@@ -1,0 +1,136 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+#background-gi {
+	background-color: #f5f5f5;
+}
+
+.jumbotron	{
+	text-align: center;
+	background-image: url(../images/onemillionesbackground.jpg);
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+
+ul.nav {
+	font-size: 13px;
+}
+
+.jumbotron	h1 {
+	color: white;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.jumbotron	p {
+	color: white;
+	padding: 0 50px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.homepage {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.homepage h2, h3 {
+    color: #D50505;
+    font-family: 'Arvo', serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.homepage h3 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.homepage a {
+	color: #e74c3c;
+}
+
+.homepage a:hover {
+	color: red;
+	text-decoration: none;
+	opacity: .7;
+}
+
+.homepage hr {
+	border-color: #D50505;
+	width: 200px;
+	margin-top: 15px; 
+}
+
+footer {
+	background-color: red;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+
+/* Responsive devices (desktops, 1100px and up) */
+@media (max-width: 1099px) {
+	.jumbotron h1 {
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+}
+
+/* Responsive Tablets (tablets, 992px and above) */
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0px 10px;
+	}
+
+	#background-gi .col-md4 {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+}
+
+/* Responsive mobile (Mobile, 768px and above) */
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		padding: 0px;
+		font-size: 16px;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+}
